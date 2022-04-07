@@ -66,18 +66,4 @@ if __name__ == '__main__':
 
     print('Hello!')
     flag = True
-    while flag:
-        main()
-        """
-        print('1. Добавить новый поезд')
-        print('2. Вывести информацию о поезде')
-        print('3.Выход из программы')
-        com = int(input('введите номер команды: '))
-        if com == 1:
-            add_element()
-        elif com == 2:
-            train_num = input('Введите номер поезда: ')
-            find_train(train_num)
-        elif com == 3:
-            flag = False
-        """
+    main()
